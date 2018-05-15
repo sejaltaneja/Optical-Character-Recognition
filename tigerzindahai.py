@@ -43,22 +43,6 @@ clf = MultinomialNB().fit(docs_train, y_train)
 y_pred = clf.predict(docs_test)
 print(y_pred)
 
-
-'''
-reviews_new = ['This movie was excellent', 'Absolute joy ride',
-               'Steven Seagal was terrible', 'Steven Seagal shined through.',
-               'This was certainly a movie', 'Two thumbs up', 'I fell asleep halfway through',
-               "We can't wait for the sequel!!", '!', '?', 'I cannot recommend this highly enough',
-               'instant classic.', 'Steven Seagal was amazing. His performance was Oscar-worthy.']
-reviews_new_counts = movie_vec.transform(reviews_new)
-reviews_new_tfidf = tfidf_transformer.transform(reviews_new_counts)
-
-pred = clf.predict(reviews_new_tfidf)
-
-for review, category in zip(reviews_new, pred):
-    print('%r => %s' % (review, movie_train.target_names[category]))
-'''
-
 import requests
 from textwrap import wrap
 from bs4 import BeautifulSoup as bsoup
