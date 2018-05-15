@@ -43,6 +43,8 @@ INPUT:
 
 Input is a black and white image (DL_3.jpg) present in the repository.
 
+![dl_3](https://user-images.githubusercontent.com/38216174/40042738-f87ccbb0-583f-11e8-81bb-7ed8ba5f18f1.jpg)
+
 CODE:
 =====
 
@@ -51,12 +53,7 @@ DL_3.py present in the repository.
 OUTPUT:
 ========
 
-Name :ROSHAN THOMAS
-S/D/W of :THOMAS
-Address :PARAKKATTU HOUSE CHANDANAKAMPARA PO PAYYAVOOR KANNRU,
-Date of Birth : 26/01/1992
-Driving License Number : 59/5279/2010
-
+![output](https://user-images.githubusercontent.com/38216174/40042742-fb7e16b6-583f-11e8-9d40-42c5c22414e8.PNG)
 
 
 
